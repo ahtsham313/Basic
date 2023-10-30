@@ -274,18 +274,21 @@
   text-align: justify;
 }
 
-.col-md-4.col-12.services h3{
+.col-md-4.col-12.services h3 {
   text-align: center;
   border-bottom: 2px solid #85ec09;
 }
 
-.for-bckground{
-  background-image:url(../imgs/express.jpg);
-width: 100%;
-overflow: hidden;
-background-size: cover;
+.for-bckground {
+  background-image: url(../imgs/background-image.jpg);
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
 }
 
+.col-12.background-contints {
+  color: #fff;
+}
 
 .background-contints {
   max-width: 500px;
@@ -294,16 +297,57 @@ background-size: cover;
   padding: 40px 0px 25px 40px;
   border: 2px solid green;
   margin: 90px;
-  animation: first-anim 5s ;
+  animation: first-anim 5s;
   position: relative;
 }
 
-@keyframes first-anim{
+@keyframes first-anim {
 
-  0% { top:0px;}
-  25% { top:25px;}
-  50% { top:50px;}
-  75% { top:75px}
- 100% { top:100px}
+  0% {
+    top: 0px;
+  }
 
+  25% {
+    top: 25px;
+  }
+
+  50% {
+    top: 50px;
+  }
+
+  75% {
+    top: 75px
+  }
+
+  100% {
+    top: 100px
+  }
+
+}
+
+.cont-and-img {
+  padding: 0px;
+  margin: 0;
+
+}
+
+.col-md-7.col-12 p {
+  position: relative;
+  top: 30%;
+  text-align: justify;
+}
+
+.cont-and-img-heading {
+  text-align: center;
+  background: orange;
+  margin-top: 30px;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.row.cont-and-img h3 {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  border-bottom: 5px solid orange;
 }
