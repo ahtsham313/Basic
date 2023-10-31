@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
+}
+
+.row.cont-and-img img {
+  width: 100%;
 }
 
 .nav-barr {
@@ -324,12 +329,13 @@
   }
 
 }
+/* =================we--works---on---=============== */
 
-.cont-and-img {
+/* .cont-and-img {
   padding: 0px;
   margin: 0;
 
-}
+} */
 
 .col-md-7.col-12 p {
   position: relative;
@@ -349,5 +355,84 @@
   text-align: center;
   position: relative;
   top: 60px;
+ 
+}
+
+.bodr-btm-top{
+  border-bottom: 3px solid green;
+  border-top: 3px solid green;
+  max-width: 100%;
+}
+
+.bodr-btm {
   border-bottom: 5px solid orange;
+  position: absolute;
+  left: 45%;
+  right: 45%;
+  overflow: hidden;
+  max-width: 100%;
+  width: 25%;
+  display: block;
+}
+
+.row.cont-and-img p {
+  top: 35%;
+  position: relative;
+  transform: translateY(-35%);
+  overflow: hidden;
+  text-align: justify;
+}
+
+/* =======================================media==Query===== */
+
+@media only screen and (max-width: 767px) {
+  .bodr-btm {
+    
+  }
+
+  .bodr-btm-top {
+    border-bottom: none;
+    border-top: none;
+    max-width: 100%;
+   
+}
+
+  .row.cont-and-img h3 {
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+  
+  .row.cont-and-img p {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 80px;
+    margin-top: -25px;
+    text-align: justify;
+  }
+}
+
+/* ========================react-background-img==================== */
+
+.react-background-img {
+  background-image: url(/imgs/react.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.col-6.react-background-containt {
+  background: #ffa50036;
+  color: #fff;
+  text-align: justify;
+  padding: 0 15px;
+  margin: 30px 10px;
+}
+
+.col-6.react-background-containt h2 {
+  font-weight: 700;
+  font-family: tims;
+  text-align: center;
+  padding: 30px 0 0 0;
 }
