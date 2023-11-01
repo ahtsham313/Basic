@@ -437,9 +437,3 @@
   text-align: center;
   padding: 30px 0 0 0;
 }
-
-.bodr-btm::before{
-  border: 1px solid blue ;
-  width: 5px;
-  height: 2px;
-}
