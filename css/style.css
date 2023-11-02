@@ -11,7 +11,7 @@
 
 .nav-barr {
   background-image: url(../imgs/header-bg-img1.png);
-
+ 
 }
 
 .main-header-one {
@@ -385,7 +385,7 @@
 
 /* =======================================media==Query===== */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .bodr-btm {
     
   }
@@ -420,7 +420,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  max-height: 300px;
+ 
   }
 
 .col-6.react-background-containt {
@@ -437,3 +437,88 @@
   text-align: center;
   padding: 30px 0 0 0;
 }
+
+.contact-me-heading {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.row.contact-info {
+  text-align: center;
+  padding: 35px 0px;
+}
+
+
+.row.contact-info li{
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+
+}
+
+.row.contact-info li a {
+  text-decoration: none;
+  color: orange;
+}
+
+.contact-info .fa-solid {
+  font-weight: 900;
+  position: relative;
+  left: -50px;
+}
+
+.contactme-section{
+  background-color: gray;
+}
+/* ==================================form======================== */
+.contact-form {
+  text-align: center;
+  border: 1px solid #f06f10;
+  background-color: orange;
+  margin: 0 30%;
+  position: relative;
+  box-shadow: 0px -1px 6px 3px white;
+}
+
+.contact-form input,textarea {
+  padding: 5px 15px;
+}
+
+.form-upper {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.form-close {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.contact-me-heading::after {
+  content: "";
+  height: 4px;
+  width: 90px;
+  color: red;
+}
+
+.button-clas {
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+.button-clas:hover{
+  background-color: orange;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* =======================map====================================== */
