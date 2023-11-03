@@ -522,3 +522,57 @@
 }
 
 /* =======================map====================================== */
+
+/* ====================footer================================= */
+.footer li::before{
+  content: " \f101";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.footer li{
+  list-style: none;
+}
+
+.footer li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-start{
+  color: #fff;
+  background-color: #000;
+}
+
+.end-index {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.end-index::before{
+  position: absolute;
+  content: " ";
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  top: 2px;
+  background: #fff;
+  display: block;
+  z-index: 99999;
+}
+
+.end-index span{
+  color: orange;
+}
+
+.footer.col-md-3.col-sm-6.col-12 li a {
+  padding-left: 10px;
+}
+
+.footr-icon.col-md-6.col-12 {
+  width: 25%;
+  text-align: center;
+}
