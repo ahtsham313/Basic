@@ -423,7 +423,7 @@
  
   }
 
-.col-6.react-background-containt {
+.col-12.react-background-containt {
   background: #ffa50036;
   color: #fff;
   text-align: justify;
@@ -431,7 +431,7 @@
   margin: 30px 10px;
 }
 
-.col-6.react-background-containt h2 {
+.col-12.react-background-containt h2 {
   font-weight: 700;
   font-family: tims;
   text-align: center;
@@ -575,4 +575,24 @@
 .footr-icon.col-md-6.col-12 {
   width: 25%;
   text-align: center;
+}
+
+/* =========================================about-us-========================= */
+
+.col-md-6.col-12.about-us-ind.about-containt {
+  padding-top: 40px;
+}
+
+.about-us1{
+  background: gainsboro;
+}
+.about-us-button {
+  position: relative;
+  top: 40px;
+  left: 30px;
+  height: 45px;
+  width: 100px;
+  border: none;
+  background: orange;
+  border-radius: 9px;
 }
