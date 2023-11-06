@@ -7,6 +7,7 @@
 
 .row.cont-and-img img {
   width: 100%;
+  padding: 40px;
 }
 
 .nav-barr {
@@ -162,7 +163,7 @@
     top: -23px;
     display: none;
     list-style: none;
-    left: 70px;
+    left: 100px;
     margin-bottom: -25px;
   }
 }
@@ -216,7 +217,7 @@
     display: none;
     list-style: none;
     margin-bottom: -30px;
-    left: 75px;
+    left: 95px;
   }
 
   .clicked {
@@ -355,7 +356,7 @@
 .row.cont-and-img h3 {
   text-align: center;
   position: relative;
-  top: 60px;
+  top: 20px;
  
 }
 
@@ -387,10 +388,6 @@
 /* =======================================media==Query===== */
 
 @media only screen and (max-width: 991px) {
-  .bodr-btm {
-    
-  }
-
   .bodr-btm-top {
     border-bottom: none;
     border-top: none;
@@ -402,6 +399,8 @@
     text-align: center;
     position: relative;
     top: 1px;
+    width: 100px;
+
   }
   
   .row.cont-and-img p {
@@ -439,11 +438,6 @@
   padding: 30px 0 0 0;
 }
 
-.contact-me-heading {
-  text-align: center;
-  padding: 20px 0 0 0;
-}
-
 .row.contact-info {
   text-align: center;
   padding: 35px 0px;
@@ -472,60 +466,11 @@
   background-color: gainsboro;
   padding-bottom: 50px;
 }
-/* ==================================form======================== */
-.contact-form {
-  text-align: center;
-  border: 1px solid #f06f10;
-  background-color: orange;
-  margin: 0 30%;
-  position: relative;
-  box-shadow: 0px -1px 6px 3px white;
-}
+/* ==================================form=======start================= */
 
-.contact-form input,textarea {
-  padding: 5px 15px;
-}
+/* =======================map====start================================== */
 
-.form-upper {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-}
-
-.form-close {
-  position: absolute;
-  right: 20px;
-  top: 0px;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.contact-me-heading::after {
-  content: "";
-  height: 4px;
-  width: 90px;
-  color: red;
-}
-
-.button-clas {
-  width: 150px;
-  height: 40px;
-  border-radius: 40px;
-  background: #fff;
-  border: none;
-  font-weight: 600;
-}
-
-.button-clas:hover{
-  background-color: orange;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-/* =======================map====================================== */
-
-/* ====================footer================================= */
+/* ====================footer=======start========================== */
 .footer li::before{
   content: " \f101";
   font-family: "Font Awesome 5 Free";
@@ -544,6 +489,7 @@
 .footer-start{
   color: #fff;
   background-color: #000;
+  padding-top: 35px;
 }
 
 .end-index {
@@ -598,6 +544,10 @@
   border: none;
   background: orange;
   border-radius: 9px;
+}
+
+.about-us-button:hover {
+  color: #fff;
 }
 
 .col-md-6.col-12.about-us-ind.about-imgs img {
