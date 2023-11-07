@@ -27,7 +27,8 @@
 
 .main-header-one li a {
   text-decoration: none;
-  color: red;
+  color: #fff;
+  font-size: 20px;
 }
 
 .buttons {
@@ -520,7 +521,7 @@
 }
 
 .about-us1 {
-  background: gainsboro;
+  /* background: gainsboro; */
   margin-top: 50px;
   position: relative;
 }
@@ -599,12 +600,12 @@
 }
 
 .form-style input[name=phone2] {
-  width: 120px !important;
+  width: 170px !important;
 }
 
 .form-style input[type=text],
 input[type=email] {
-  width: 48%;
+  width: 64%;
 
 }
 
@@ -649,7 +650,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .form-style textarea {
   height: 100px;
-  width: 55%;
+  width: 64%;
 }
 
 .form-style button[type="submit"] {
@@ -689,4 +690,15 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold;
   color: #FF0000;
   border-left: 3px solid #FF0000;
+}
+
+.contact-bgg {
+  text-align: center;
+  padding: 15px;
+  background: gainsboro;
+  color: #fff;
+}
+
+.contact-bgg h1{
+  font-weight: 700;
 }
