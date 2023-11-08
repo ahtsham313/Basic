@@ -167,6 +167,7 @@
     left: 100px;
     margin-bottom: -25px;
   }
+
 }
 
 
@@ -229,6 +230,7 @@
     left: 90px;
     margin-bottom: -30px;
   }
+ 
 }
 
 
@@ -239,7 +241,8 @@
     position: relative;
     top: 5px;
   }
-}
+
+ }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1250px) {
@@ -341,10 +344,11 @@
 
 .we-work-main {
   border: 1px solid orange;
-  padding: 37px;
+  padding: 2px 20px;
+  max-width: 100%;
   width: 31%;
   margin: 10px;
-}
+} 
 
 .how-we-containt p {
   text-align: justify;
@@ -517,14 +521,13 @@
 
 .col-md-6.col-12.about-us-ind.about-containt {
   position: relative;
-  top: 130px;
+  top: 15px;
 }
 
-.about-us1 {
-  /* background: gainsboro; */
+ .about-us1 { 
   margin-top: 50px;
   position: relative;
-}
+} 
 
 .about-us-button {
   top: 40px;
@@ -701,4 +704,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 .contact-bgg h1{
   font-weight: 700;
+}
+
+/* =================================================
+====================================================
+==================================================== */
+#overlay:hover {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.24);
+  z-index: 99999;
+  cursor: pointer;
+  position: relative;
+  transition-delay: 0.3s;
 }
