@@ -15,6 +15,15 @@
 
 }
 
+a:hover {
+  background: orange;
+}
+
+.hover-me {
+  padding: 30px 0px;
+  margin-top: -30px;
+}
+
 .main-header-one {
   position: relative;
   width: 100%;
@@ -85,7 +94,7 @@
 }
 
 .main-header-one li a {
-  padding: 30px 5px;
+  padding: 0px 5px;
 }
 
 .humburgrr {
@@ -760,3 +769,4 @@ input[type=number]::-webkit-outer-spin-button {
 .side-popup p {
   padding: 2px 11px;
 }
+
