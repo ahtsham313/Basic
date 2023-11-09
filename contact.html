@@ -79,59 +79,59 @@
         </div>
     </section>
     <!-- ================================form================================ -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 col-12">
-<div>
-    <h2>Address</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, saepe tenetur!</p>
-</div>
-<div>
-    <h2>Mobile Numbber</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="contact-page">Contact Information</h2>
+            <div class="col-md-6 col-12 contat-pg-addres">
+                <div>
+                    <h2>Contact Details</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, saepe tenetur!</p>
+                </div>
+                <div class="contact-detail-icon">
+                    <li><a href="#"><i class="fa-solid fa-phone"></i></a> +91 9716924155</li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i></a>ahtsham4698@gmail.com</li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i></a> Delhi/Noida</li>
+                </div>
 
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-</div>
+
+            </div>
 
 
+            <div class="form-style col-12 col-md-6" id="contact_form">
+                <div class="form-style-heading">Please Contact Us</div>
+                <div id="contact_results"></div>
+                <form id="contact_body" method="post" action="contact_me.php">
+                    <label for="name"><span>Name <span class="required">*</span></span>
+                        <input type="text" name="name" data-required="true" />
+                    </label>
+                    <label for="email"><span>Email <span class="required">*</span></span>
+                        <input type="email" name="email" data-required="true" />
+                    </label>
+                    <label><span>Phone <span class="required">*</span></span>
+                        <input type="number" name="phone1" maxlength="3" placeholder="+91" />&mdash;
+                        <input type="number" name="phone2" maxlength="15" data-required="true" />
+                    </label>
+                    <label><span>Attachment</span>
+                        <input type="file" name="file_attach[]" multiple />
+                    </label>
+
+                    <label for="subject"><span>Regarding</span>
+                        <select name="subject">
+                            <option value="General Question">General Question</option>
+                            <option value="Advertise">Advertisement</option>
+                            <option value="Partnership">Partnership Oppertunity</option>
+                        </select>
+                    </label>
+                    <label for="message"><span>Message <span class="required">*</span></span>
+                        <textarea name="message" data-required="true"></textarea>
+                    </label>
+                    <label><span>&nbsp;</span>
+                        <button type="submit">Submit</button>
+                    </label>
+                </form>
+            </div>
         </div>
-   
-
-    <div class="form-style col-12 col-md-6" id="contact_form">
-        <div class="form-style-heading">Please Contact Us</div>
-        <div id="contact_results"></div>
-        <form id="contact_body" method="post" action="contact_me.php">
-            <label for="name"><span>Name <span class="required">*</span></span>
-                <input type="text" name="name" data-required="true" />
-            </label>
-            <label for="email"><span>Email <span class="required">*</span></span>
-                <input type="email" name="email" data-required="true" />
-            </label>
-            <label><span>Phone <span class="required">*</span></span>
-                <input type="number" name="phone1" maxlength="3" placeholder="+91" />&mdash;
-                <input type="number" name="phone2" maxlength="15" data-required="true" />
-            </label>
-            <label><span>Attachment</span>
-                <input type="file" name="file_attach[]" multiple />
-            </label>
-
-            <label for="subject"><span>Regarding</span>
-                <select name="subject">
-                    <option value="General Question">General Question</option>
-                    <option value="Advertise">Advertisement</option>
-                    <option value="Partnership">Partnership Oppertunity</option>
-                </select>
-            </label>
-            <label for="message"><span>Message <span class="required">*</span></span>
-                <textarea name="message" data-required="true"></textarea>
-            </label>
-            <label><span>&nbsp;</span>
-                <button type="submit">Submit</button>
-            </label>
-        </form>
     </div>
-</div>
-</div>
     <section>
         <div class="map">
             <iframe

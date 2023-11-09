@@ -15,8 +15,12 @@
 
 }
 
-a:hover {
+li a:hover {
   background: orange;
+}
+
+li {
+  list-style: none;
 }
 
 .hover-me {
@@ -770,3 +774,28 @@ input[type=number]::-webkit-outer-spin-button {
   padding: 2px 11px;
 }
 
+.contat-pg-addres {
+  position: relative;
+  left: 80px;
+  top: 120px;
+}
+
+@media screen and (max-width: 992px) {
+  .contat-pg-addres {
+    position: relative;
+    left: 0px;
+    top: 0px;
+text-align: center;
+  }
+}
+
+.contact-page {
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 7px;
+}
+
+.contact-detail-icon li a {
+  background: none;
+  line-height: 40px;
+}
